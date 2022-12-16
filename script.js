@@ -8,7 +8,7 @@ function horaAtual() {
   atualHora.innerHTML = formatoHora;
 
   if (formatoHora < 10) {
-    atualHora.innerHTML = formatoHora + '0';
+    atualHora.innerHTML = '0' + formatoHora;
   }
 }
 
@@ -24,7 +24,7 @@ function minutoAtual() {
   atualMinuto.innerHTML = formatoMinuto;
 
   if (formatoMinuto < 10) {
-    atualMinuto.innerHTML = formatoMinuto + '0';
+    atualMinuto.innerHTML = '0' + formatoMinuto;
   }
 }
 
@@ -40,7 +40,7 @@ function segundoAtual() {
   atualSegundo.innerHTML = formatoSegundo;
 
   if (formatoSegundo < 10) {
-    atualSegundo.innerHTML = formatoSegundo + '0';
+    atualSegundo.innerHTML = '0' + formatoSegundo;
   }
 }
 
