@@ -1,14 +1,14 @@
 // hours
 function horaAtual() {
-  let hora = document.getElementById('hora');
+  let atualHora = document.getElementById('hora');
   let data = new Date();
-  let h = data.getHours();
-  let formatoHora = h;
+  let hora = data.getHours();
+  let formatoHora = hora;
 
-  hora.innerHTML = formatoHora;
+  atualHora.innerHTML = formatoHora;
 
   if (formatoHora < 10) {
-    hora.innerHTML = formatoHora + '0';
+    atualHora.innerHTML = formatoHora + '0';
   }
 }
 
@@ -16,15 +16,15 @@ setInterval(horaAtual);
 
 // minutes
 function minutoAtual() {
-  let hora = document.getElementById('minuto');
+  let atualMinuto = document.getElementById('minuto');
   let data = new Date();
-  let m = data.getMinutes();
-  let formatoMinuto = m;
+  let minuto = data.getMinutes();
+  let formatoMinuto = minuto;
 
-  hora.innerHTML = formatoMinuto;
+  atualMinuto.innerHTML = formatoMinuto;
 
   if (formatoMinuto < 10) {
-    hora.innerHTML = formatoMinuto + '0';
+    atualMinuto.innerHTML = formatoMinuto + '0';
   }
 }
 
@@ -32,15 +32,15 @@ setInterval(minutoAtual);
 
 // seconds
 function segundoAtual() {
-  let hora = document.getElementById('segundo');
+  let atualSegundo = document.getElementById('segundo');
   let data = new Date();
-  let s = data.getSeconds();
-  let formatoSegundo = s;
+  let segundo = data.getSeconds();
+  let formatoSegundo = segundo;
 
-  hora.innerHTML = formatoSegundo;
+  atualSegundo.innerHTML = formatoSegundo;
 
   if (formatoSegundo < 10) {
-    hora.innerHTML = formatoSegundo + '0';
+    atualSegundo.innerHTML = formatoSegundo + '0';
   }
 }
 
