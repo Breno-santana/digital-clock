@@ -34,3 +34,15 @@ div {
   justify-content: center;
   font-size: 5.5rem;
 }
+
+main div:nth-child(1) {
+  background: #0077ff;
+}
+
+main div:nth-child(2) {
+  background: #0077ff;
+}
+
+/* main div:nth-child(1){
+  background: #0077ff;
+} */
