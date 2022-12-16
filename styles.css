@@ -36,7 +36,15 @@ div {
   color: #fff;
 }
 
-main div:nth-child(1) {
+.bg-blue{
+  background: #0077ff;
+}
+
+,.bg-red{
+  background: #ff2828;
+}
+
+/* main div:nth-child(1) {
   background: #0077ff;
 }
 
@@ -46,7 +54,7 @@ main div:nth-child(2) {
 
 main div:nth-child(3) {
   background: #ff2828;
-}
+}  */
 
 div.contain-flex{
   display: flex;
@@ -56,5 +64,9 @@ div.contain-flex{
 p{
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+.bg-red{
+  background: #ff2828;
 }
 
