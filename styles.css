@@ -36,37 +36,30 @@ div {
   color: #fff;
 }
 
-.bg-blue{
+.bg-blue {
   background: #0077ff;
 }
 
-,.bg-red{
+.bg-red {
   background: #ff2828;
 }
 
-/* main div:nth-child(1) {
-  background: #0077ff;
-}
-
-main div:nth-child(2) {
-  background: #0077ff;
-}
-
-main div:nth-child(3) {
-  background: #ff2828;
-}  */
-
-div.contain-flex{
+div.contain-flex {
   display: flex;
   flex-direction: column;
 }
 
-p{
+span.blue-row {
+  width: 100%;
+  border: 1px solid #0c60c0;
+}
+
+span.red-row {
+  width: 100%;
+  border: 1px solid #b91e1e;
+}
+
+p {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
 }
-
-.bg-red{
-  background: #ff2828;
-}
-
