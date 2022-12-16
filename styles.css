@@ -47,3 +47,14 @@ main div:nth-child(2) {
 main div:nth-child(3) {
   background: #ff2828;
 }
+
+div.contain-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
