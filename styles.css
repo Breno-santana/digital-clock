@@ -2,9 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+  background: #000;
   position: relative;
   display: flex;
   justify-content: center;
@@ -19,6 +21,7 @@ main {
   justify-content: center;
   gap: 3rem;
   top: 50%;
+  transform: translateY(100%);
 }
 
 div {
@@ -26,4 +29,8 @@ div {
   height: 12.5rem;
   background: red;
   border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.5rem;
 }
